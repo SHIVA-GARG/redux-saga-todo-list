@@ -31,7 +31,7 @@
 
 This project was created to study more about Redux and learn Redux Saga to improve the state management of an application.
 
-👉 [CLICK HERE](https://luanedcosta.github.io/redux-saga-todo-list/) to see it running in your browser.
+
 
 ## :rocket: Technologies
 
@@ -61,9 +61,9 @@ $ yarn install
 $ yarn start
 ```
 
-## :man: Author
 
-Made with ♥ by Luan Eduardo da Costa | [Follow me on Linkedin](https://www.linkedin.com/in/luaneducosta/)
+
+
 
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/

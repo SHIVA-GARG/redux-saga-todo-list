@@ -7,6 +7,7 @@ export function* fetchUser(action) {
   try {
     const { userName, task } = action.payload
     const { data } = yield call(Server.get, `users/${userName}`)
+    console.log(data)
     const addTaskAction = addTask(data, task)
     yield put(addTaskAction)
   } catch (e) {

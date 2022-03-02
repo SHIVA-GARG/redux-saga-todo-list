@@ -9,7 +9,7 @@ import {
 } from './styles'
 
 const App = (props) => {
-  const { className, imageSrc, userName, task, onRemoveClick } = props
+  const { className, imageSrc, userName, task, onRemoveClick,bio } = props
 
   return (
     <Container className={className}>
@@ -19,7 +19,9 @@ const App = (props) => {
 
       <Content>
         <UserName>{userName}</UserName>
-        <Task>{task}</Task>
+        <Task>TASK:{task}</Task>
+        <hr/>
+        <h4>BIO:{bio}</h4>
       </Content>
     </Container>
   )

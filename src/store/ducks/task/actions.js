@@ -6,7 +6,7 @@ import {
 } from './types'
 
 export const addTask = (userData, task) => {
-  const { avatar_url, name, login } = userData
+  const { avatar_url, name, login,bio } = userData
   const id = new Date().getTime()
 
   return {
@@ -17,6 +17,7 @@ export const addTask = (userData, task) => {
       name,
       userName: login,
       avatar: avatar_url,
+      bio:bio
     },
   }
 }

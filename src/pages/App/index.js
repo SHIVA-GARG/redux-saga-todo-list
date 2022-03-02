@@ -71,7 +71,7 @@ const App = () => {
 
           {
             taskList.map((taskItem) => {
-              const { id, userName, task, name, avatar } = taskItem
+              const { id, userName, task, name, avatar,bio } = taskItem
               const onRemove = () => handleRemoveTask(id)
 
               return (
@@ -81,6 +81,7 @@ const App = () => {
                   imageSrc={avatar}
                   onRemoveClick={onRemove}
                   userName={name || userName}
+                  bio = {bio}
                 />
               )
             })
